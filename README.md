@@ -1,3 +1,3 @@
 # A basic web scrapping using BeautifulSoup
 
-using request module instead of urllib
+using request module instead of urllib .
