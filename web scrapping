@@ -1,11 +1,1 @@
-from bs4 import BeautifulSoup
-import requests
 
-res = request.get('http://indiatoday.in/section/120/1/')
-soup = BeautifulSoup(res.text,'lxml')
-
-news_box = soup.find('ul',{'class':'topstr-list gap topmargin'})
-all_news =news_box.find_all('a')
-
-for news in all news:
-    print(news.text)
